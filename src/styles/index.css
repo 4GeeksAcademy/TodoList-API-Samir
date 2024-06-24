@@ -1,12 +1,105 @@
 
-/* 
+body {
+    font-family: "Poppins", sans-serif;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
 
-*/
+.FormBack {
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: rgba(211, 211, 211, 0.2) 0 15px 30px -5px;
+    background: linear-gradient(144deg, #939393, #000000 70%);
+    max-width: 800px;
+    margin: 0px 150px 0px 150px;
+}
+
+.input {
+    background: none;
+    border: 1px solid #cbcbcb;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.input::placeholder{
+    color: #d7d7d7;
+}
+
+.input:focus {
+    border-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.todo-btn {
+    background: #000000;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 0.55rem 1rem;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.todo-btn2 {
+    background: #f3ff12;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo-btn2:hover{
+    background: #f7ff66;
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #414141;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #83d400cf
+}
+
+/* .form-check-input {
+} */
+
+/* .completed {
+} */
+
+.fa {
+    visibility: hidden; 
+    transition: .4s all;
+    color: #f9f9f998;
+}
+.fa:hover{  
+        transform: scale(1.2);
+        background-color: #6c6c6c;
+        box-shadow: 0 0 7px 4px #6c6c6c;
+        color: white;
+}
+
+ .Todo:hover .fa {
+    visibility: visible;
+} 
+
+
+
+
+a {
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+}
