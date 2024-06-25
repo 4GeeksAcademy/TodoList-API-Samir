@@ -1,5 +1,4 @@
 import React from "react";
-import checkboxStyles from "../../styles/checkbox.css";
 
 const Checkbox = ({ checked, onChange }) => {
     return (
